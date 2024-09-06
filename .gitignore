@@ -1,0 +1,25 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+*.cfg
+
+# Environment variables
+*.env
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+#notebooks
+*.ipynb
