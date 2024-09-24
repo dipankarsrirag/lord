@@ -49,7 +49,7 @@ def parse_args():
 def main():
     args = parse_args()
 
-    delimiter = {"mistral": "<start_of_turn>model", "gemma": "[/INST]"}
+    delimiter = {"gemma": "<start_of_turn>model", "mistral": "[/INST]"}
 
     model = AutoModelForCausalLM.from_pretrained(
         args.model_id,
